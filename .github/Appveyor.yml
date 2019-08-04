@@ -1,0 +1,4 @@
+version: 0.0.0.{build}
+clone_folder: C:\Software\TheCrafters001\Launcher
+build:
+  verbosity: minimal

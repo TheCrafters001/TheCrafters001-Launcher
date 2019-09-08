@@ -9,10 +9,10 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("TheCrafters001 Launcher")>
-<Assembly: AssemblyDescription("")>
+<Assembly: AssemblyDescription("This launcher is for anyone that wants to host FREE software. Free software is only accepted, and they are virus tested. All software must have a Windows Varient. This software may not be avaliable for all Operating Systems. Wine For Linux has not been tested on this software. Wine For Mac has not been tested on this software. All software on this program is served AS-IS and does not come with warranty. TheCrafters001 is not responsible for any damages made to your computer. Software that comes by a another provider will have their name next to it. This software is under the GNU GPL V3, This software comes AS-IS with no warranty. TheCrafters001 is not responsible for any damage. ALL SOFTWARE MUST BE FREE.")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("TheCrafters001 Launcher")>
-<Assembly: AssemblyCopyright("Copyright ©  2019")>
+<Assembly: AssemblyCopyright("Copyright © TheCrafters001 and Contributors 2019")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>

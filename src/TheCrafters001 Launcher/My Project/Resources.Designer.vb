@@ -113,6 +113,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property oras___delta_episode_symbol_by_pheonixmaster1_d87uavw_pre() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("oras___delta_episode_symbol_by_pheonixmaster1_d87uavw-pre", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Software() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Software", resourceCulture)

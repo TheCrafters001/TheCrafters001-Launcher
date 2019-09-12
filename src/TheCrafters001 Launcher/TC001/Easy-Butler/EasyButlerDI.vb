@@ -23,4 +23,13 @@ Public Class EasyButlerDI
             client.DownloadFile(New Uri("https://github.com/TheCrafters001/Easy-Butler/releases/latest/download/EasyButler.exe"), "C:\Launcher\Downloads\EasyButler.exe")
         End Using
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Dim pHelp As New ProcessStartInfo
+        pHelp.FileName = "C:\Launcher\Apps\Easy-Butler\unins000.exe"
+        pHelp.Arguments = "/SILENT"
+        pHelp.UseShellExecute = True
+        pHelp.WindowStyle = ProcessWindowStyle.Normal
+        Dim proc As Process = Process.Start(pHelp)
+    End Sub
 End Class

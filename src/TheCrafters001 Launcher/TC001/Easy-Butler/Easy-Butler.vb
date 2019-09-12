@@ -13,6 +13,12 @@
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-
+        Dim pHelp As New ProcessStartInfo
+        pHelp.FileName = "C:\Launcher\Apps\Easy-Butler\Easy Butler.exe"
+        pHelp.Arguments = ""
+        pHelp.UseShellExecute = True
+        pHelp.WindowStyle = ProcessWindowStyle.Normal
+        Dim proc As Process = Process.Start(pHelp)
+        Application.Exit()
     End Sub
 End Class

@@ -128,16 +128,28 @@
     <Compile Include="Software.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Splash.Designer.vb">
-      <DependentUpon>Splash.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Splash.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="TC001.Designer.vb">
       <DependentUpon>TC001.vb</DependentUpon>
     </Compile>
     <Compile Include="TC001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TC001\Blog\Blog.Designer.vb">
+      <DependentUpon>Blog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TC001\Blog\Blog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TC001\DeltaGreen\DeltaGreen.Designer.vb">
+      <DependentUpon>DeltaGreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TC001\DeltaGreen\DeltaGreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TC001\DeltaGreen\DeltaGreenI.Designer.vb">
+      <DependentUpon>DeltaGreenI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TC001\DeltaGreen\DeltaGreenI.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="TC001\Easy-Butler\EasyButlerDI.Designer.vb">
@@ -175,11 +187,17 @@
     <EmbeddedResource Include="Software.resx">
       <DependentUpon>Software.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Splash.resx">
-      <DependentUpon>Splash.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="TC001.resx">
       <DependentUpon>TC001.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TC001\Blog\Blog.resx">
+      <DependentUpon>Blog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TC001\DeltaGreen\DeltaGreen.resx">
+      <DependentUpon>DeltaGreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TC001\DeltaGreen\DeltaGreenI.resx">
+      <DependentUpon>DeltaGreenI.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TC001\Easy-Butler\Easy-Butler.resx">
       <DependentUpon>Easy-Butler.vb</DependentUpon>
@@ -212,6 +230,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.ico" />
+    <None Include="Resources\oras___delta_episode_symbol_by_pheonixmaster1_d87uavw-pre.png" />
     <None Include="Resources\Butler-Logo.png" />
     <None Include="Resources\TC001.png" />
     <None Include="Resources\Software.png" />

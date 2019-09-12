@@ -30,13 +30,15 @@ Partial Class Splash
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.TheCrafters001_Launcher.My.Resources.Resources.Launcher
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ClientSize = New System.Drawing.Size(594, 225)
+        Me.ClientSize = New System.Drawing.Size(590, 221)
         Me.ControlBox = False
         Me.Cursor = System.Windows.Forms.Cursors.AppStarting
+        Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Splash"
         Me.ShowIcon = False
         Me.ShowInTaskbar = False
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Splash"
         Me.ResumeLayout(False)
 

@@ -50,6 +50,9 @@
   <PropertyGroup>
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="AutoUpdater.NET, Version=1.5.4.0, Culture=neutral, PublicKeyToken=501435c91b35f4bc, processorArchitecture=MSIL">
       <HintPath>..\packages\Autoupdater.NET.Official.1.5.4\lib\net40\AutoUpdater.NET.dll</HintPath>
@@ -92,6 +95,18 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Games.Designer.vb">
+      <DependentUpon>Games.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Games.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Misc.Designer.vb">
+      <DependentUpon>Misc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Misc.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -119,6 +134,24 @@
     <Compile Include="Splash.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="TC001.Designer.vb">
+      <DependentUpon>TC001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TC001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TC001\Easy-Butler\EasyButlerDI.Designer.vb">
+      <DependentUpon>EasyButlerDI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TC001\Easy-Butler\EasyButlerDI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TC001\Easy-Butler\Easy-Butler.Designer.vb">
+      <DependentUpon>Easy-Butler.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TC001\Easy-Butler\Easy-Butler.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AboutBox1.resx">
@@ -126,6 +159,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Games.resx">
+      <DependentUpon>Games.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Misc.resx">
+      <DependentUpon>Misc.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -139,8 +178,18 @@
     <EmbeddedResource Include="Splash.resx">
       <DependentUpon>Splash.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TC001.resx">
+      <DependentUpon>TC001.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TC001\Easy-Butler\Easy-Butler.resx">
+      <DependentUpon>Easy-Butler.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TC001\Easy-Butler\EasyButlerDI.resx">
+      <DependentUpon>EasyButlerDI.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -153,12 +202,22 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Games\" />
+    <Folder Include="Misc\" />
+    <Folder Include="Software\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Launcher.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.ico" />
+    <None Include="Resources\Butler-Logo.png" />
+    <None Include="Resources\TC001.png" />
+    <None Include="Resources\Software.png" />
+    <None Include="Resources\Miscellaneous.png" />
+    <None Include="Resources\Games.png" />
+    <None Include="Resources\about.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

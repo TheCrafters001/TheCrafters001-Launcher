@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class DeltaGreen
-    Inherits System.Windows.Forms.Form
+    Inherits MetroFramework.Forms.MetroForm
 
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -23,165 +23,150 @@ Partial Class DeltaGreen
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(DeltaGreen))
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.GroupBox3.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
-        Me.GroupBox1.SuspendLayout()
+        Me.MetroLabel1 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabel2 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabel3 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabel4 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabel5 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroButton1 = New MetroFramework.Controls.MetroButton()
+        Me.MetroButton2 = New MetroFramework.Controls.MetroButton()
+        Me.MetroButton3 = New MetroFramework.Controls.MetroButton()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(12, 415)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 11
-        Me.Button3.Text = "Run/Play"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(93, 415)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(117, 23)
-        Me.Button2.TabIndex = 10
-        Me.Button2.Text = "Install"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(451, 415)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 9
-        Me.Button1.Text = "Close"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'GroupBox3
-        '
-        Me.GroupBox3.Controls.Add(Me.RichTextBox1)
-        Me.GroupBox3.Location = New System.Drawing.Point(12, 118)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(514, 291)
-        Me.GroupBox3.TabIndex = 8
-        Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Description"
-        '
         'RichTextBox1
         '
-        Me.RichTextBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.RichTextBox1.Enabled = False
-        Me.RichTextBox1.Location = New System.Drawing.Point(3, 16)
+        Me.RichTextBox1.Location = New System.Drawing.Point(23, 169)
         Me.RichTextBox1.Name = "RichTextBox1"
         Me.RichTextBox1.ReadOnly = True
-        Me.RichTextBox1.Size = New System.Drawing.Size(508, 272)
+        Me.RichTextBox1.Size = New System.Drawing.Size(492, 229)
         Me.RichTextBox1.TabIndex = 0
         Me.RichTextBox1.Text = resources.GetString("RichTextBox1.Text")
         '
-        'GroupBox2
-        '
-        Me.GroupBox2.Controls.Add(Me.Label3)
-        Me.GroupBox2.Controls.Add(Me.Label2)
-        Me.GroupBox2.Controls.Add(Me.Label1)
-        Me.GroupBox2.Location = New System.Drawing.Point(126, 12)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(400, 100)
-        Me.GroupBox2.TabIndex = 7
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Product Info"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(6, 42)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(144, 13)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Installer Source: Pre-Installed"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(6, 29)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(129, 13)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Publisher: TheCrafters001"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(6, 16)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(117, 13)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Owner: TheCrafters001"
-        '
-        'GroupBox1
-        '
-        Me.GroupBox1.Controls.Add(Me.PictureBox1)
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(108, 100)
-        Me.GroupBox1.TabIndex = 6
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Icon"
-        '
         'PictureBox1
         '
-        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox1.Image = Global.TheCrafters001_Launcher.My.Resources.Resources.oras___delta_episode_symbol_by_pheonixmaster1_d87uavw_pre
-        Me.PictureBox1.Location = New System.Drawing.Point(3, 16)
+        Me.PictureBox1.Location = New System.Drawing.Point(23, 82)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(102, 81)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
+        'MetroLabel1
+        '
+        Me.MetroLabel1.AutoSize = True
+        Me.MetroLabel1.Location = New System.Drawing.Point(23, 60)
+        Me.MetroLabel1.Name = "MetroLabel1"
+        Me.MetroLabel1.Size = New System.Drawing.Size(33, 19)
+        Me.MetroLabel1.TabIndex = 18
+        Me.MetroLabel1.Text = "Icon"
+        Me.MetroLabel1.Theme = MetroFramework.MetroThemeStyle.Dark
+        '
+        'MetroLabel2
+        '
+        Me.MetroLabel2.AutoSize = True
+        Me.MetroLabel2.Location = New System.Drawing.Point(140, 60)
+        Me.MetroLabel2.Name = "MetroLabel2"
+        Me.MetroLabel2.Size = New System.Drawing.Size(76, 19)
+        Me.MetroLabel2.TabIndex = 19
+        Me.MetroLabel2.Text = "Project Info"
+        Me.MetroLabel2.Theme = MetroFramework.MetroThemeStyle.Dark
+        '
+        'MetroLabel3
+        '
+        Me.MetroLabel3.AutoSize = True
+        Me.MetroLabel3.Location = New System.Drawing.Point(140, 82)
+        Me.MetroLabel3.Name = "MetroLabel3"
+        Me.MetroLabel3.Size = New System.Drawing.Size(142, 19)
+        Me.MetroLabel3.TabIndex = 20
+        Me.MetroLabel3.Text = "Owner: TheCrafters001"
+        Me.MetroLabel3.Theme = MetroFramework.MetroThemeStyle.Dark
+        '
+        'MetroLabel4
+        '
+        Me.MetroLabel4.AutoSize = True
+        Me.MetroLabel4.Location = New System.Drawing.Point(140, 101)
+        Me.MetroLabel4.Name = "MetroLabel4"
+        Me.MetroLabel4.Size = New System.Drawing.Size(156, 19)
+        Me.MetroLabel4.TabIndex = 21
+        Me.MetroLabel4.Text = "Publisher: TheCrafters001"
+        Me.MetroLabel4.Theme = MetroFramework.MetroThemeStyle.Dark
+        '
+        'MetroLabel5
+        '
+        Me.MetroLabel5.AutoSize = True
+        Me.MetroLabel5.Location = New System.Drawing.Point(140, 120)
+        Me.MetroLabel5.Name = "MetroLabel5"
+        Me.MetroLabel5.Size = New System.Drawing.Size(204, 19)
+        Me.MetroLabel5.TabIndex = 22
+        Me.MetroLabel5.Text = "Installer Source: Pre-Downloaded"
+        Me.MetroLabel5.Theme = MetroFramework.MetroThemeStyle.Dark
+        '
+        'MetroButton1
+        '
+        Me.MetroButton1.Location = New System.Drawing.Point(23, 404)
+        Me.MetroButton1.Name = "MetroButton1"
+        Me.MetroButton1.Size = New System.Drawing.Size(75, 23)
+        Me.MetroButton1.TabIndex = 23
+        Me.MetroButton1.Text = "Run/Play"
+        Me.MetroButton1.Theme = MetroFramework.MetroThemeStyle.Dark
+        '
+        'MetroButton2
+        '
+        Me.MetroButton2.Location = New System.Drawing.Point(104, 404)
+        Me.MetroButton2.Name = "MetroButton2"
+        Me.MetroButton2.Size = New System.Drawing.Size(117, 23)
+        Me.MetroButton2.TabIndex = 24
+        Me.MetroButton2.Text = "Install"
+        Me.MetroButton2.Theme = MetroFramework.MetroThemeStyle.Dark
+        '
+        'MetroButton3
+        '
+        Me.MetroButton3.Location = New System.Drawing.Point(440, 404)
+        Me.MetroButton3.Name = "MetroButton3"
+        Me.MetroButton3.Size = New System.Drawing.Size(75, 23)
+        Me.MetroButton3.TabIndex = 25
+        Me.MetroButton3.Text = "Close"
+        Me.MetroButton3.Theme = MetroFramework.MetroThemeStyle.Dark
+        '
         'DeltaGreen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(538, 450)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.GroupBox3)
-        Me.Controls.Add(Me.GroupBox2)
-        Me.Controls.Add(Me.GroupBox1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Controls.Add(Me.MetroButton3)
+        Me.Controls.Add(Me.MetroButton2)
+        Me.Controls.Add(Me.MetroButton1)
+        Me.Controls.Add(Me.RichTextBox1)
+        Me.Controls.Add(Me.MetroLabel5)
+        Me.Controls.Add(Me.MetroLabel4)
+        Me.Controls.Add(Me.MetroLabel3)
+        Me.Controls.Add(Me.MetroLabel2)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.MetroLabel1)
         Me.MaximizeBox = False
         Me.Name = "DeltaGreen"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Resizable = False
+        Me.Style = MetroFramework.MetroColorStyle.Lime
         Me.Text = "Pokémon Delta Green"
-        Me.GroupBox3.ResumeLayout(False)
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
-        Me.GroupBox1.ResumeLayout(False)
+        Me.Theme = MetroFramework.MetroThemeStyle.Dark
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
-    Friend WithEvents GroupBox3 As GroupBox
     Friend WithEvents RichTextBox1 As RichTextBox
-    Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label1 As Label
-    Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents MetroLabel1 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel2 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel3 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel4 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel5 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroButton1 As MetroFramework.Controls.MetroButton
+    Friend WithEvents MetroButton2 As MetroFramework.Controls.MetroButton
+    Friend WithEvents MetroButton3 As MetroFramework.Controls.MetroButton
 End Class

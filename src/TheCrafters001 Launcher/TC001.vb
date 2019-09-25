@@ -1,13 +1,13 @@
 ﻿Public Class TC001
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub MetroButton1_Click(sender As Object, e As EventArgs) Handles MetroButton1.Click
         Easy_Butler.Show()
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub MetroButton2_Click(sender As Object, e As EventArgs) Handles MetroButton2.Click
         Blog.Show()
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub MetroButton3_Click(sender As Object, e As EventArgs) Handles MetroButton3.Click
         DeltaGreen.Show()
     End Sub
 End Class

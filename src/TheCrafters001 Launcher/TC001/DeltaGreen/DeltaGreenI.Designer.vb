@@ -33,7 +33,7 @@ Partial Class DeltaGreenI
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(153, 23)
         Me.Button3.TabIndex = 7
-        Me.Button3.Text = "Uninstall"
+        Me.Button3.Text = "Remove / Repair"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button2

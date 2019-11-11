@@ -328,8 +328,3 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
-
-# Visual Studio Installer Projects
-[Ii]nstaller/
-[Ii]nstaller*/
-

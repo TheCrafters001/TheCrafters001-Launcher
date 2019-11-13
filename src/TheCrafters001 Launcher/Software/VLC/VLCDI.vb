@@ -11,7 +11,7 @@ Public Class VLCDI
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim pHelp As New ProcessStartInfo
         pHelp.FileName = "C:\Launcher\Downloads\VLC_Install.exe"
-        pHelp.Arguments = "/s /d=""C:\Launcher\Apps\VLC"" "
+        pHelp.Arguments = "/s /d=C:\Launcher\Apps\VLC "
         pHelp.UseShellExecute = True
         pHelp.WindowStyle = ProcessWindowStyle.Normal
         Dim proc As Process = Process.Start(pHelp)

@@ -1,13 +1,8 @@
-﻿Imports AutoUpdaterDotNET
+﻿
 
 Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Update_Check()
-    End Sub
 
-    Public Sub Update_Check()
-        AutoUpdater.OpenDownloadPage = True
-        AutoUpdater.Start("http://api.thecrafters001.ga/updates/Launcher.xml")
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click

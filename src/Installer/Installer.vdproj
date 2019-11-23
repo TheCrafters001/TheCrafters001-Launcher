@@ -65,13 +65,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_DF22165ACE3DA34CC17B661C7DF2A5FA"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0EF2EABE9812FA32FD8FDBEBA59FF1C3"
+        "OwnerKey" = "8:_3EDA4224F0DDF612826EDF89D572D6F4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -83,7 +77,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_3EDA4224F0DDF612826EDF89D572D6F4"
+        "OwnerKey" = "8:_0EF2EABE9812FA32FD8FDBEBA59FF1C3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_DF22165ACE3DA34CC17B661C7DF2A5FA"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -188,11 +188,6 @@
             "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_0EF2EABE9812FA32FD8FDBEBA59FF1C3"
-                    {
-                    "Name" = "8:System.Net.Http.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:System.Net.Http.dll"
             "TargetName" = "8:"
@@ -219,11 +214,6 @@
             "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_3EDA4224F0DDF612826EDF89D572D6F4"
-                    {
-                    "Name" = "8:System.Net.Http.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:System.Net.Http.dll"
             "TargetName" = "8:"
@@ -250,11 +240,6 @@
             "AssemblyAsmDisplayName" = "8:AutoUpdater.NET, Version=1.5.8.0, Culture=neutral, PublicKeyToken=501435c91b35f4bc, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_DF22165ACE3DA34CC17B661C7DF2A5FA"
-                    {
-                    "Name" = "8:AutoUpdater.NET.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:AutoUpdater.NET.dll"
             "TargetName" = "8:"
@@ -381,15 +366,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:TheCrafters001 Launcher"
-        "ProductCode" = "8:{3DAA162B-B5FA-44F3-8E20-E98D6A68E3F8}"
-        "PackageCode" = "8:{F9D938E6-281B-4D81-A603-64137DAA3818}"
+        "ProductCode" = "8:{1A5861B2-A931-440A-A355-E91957282869}"
+        "PackageCode" = "8:{F8C42B8F-4DC1-436C-9C08-A178839695FC}"
         "UpgradeCode" = "8:{BB6BFC33-54D7-4718-A7D9-E6AE1ED56522}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:0.1.5"
+        "ProductVersion" = "8:0.1.6"
         "Manufacturer" = "8:TheCrafters001"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"

@@ -260,6 +260,9 @@
     <EmbeddedResource Include="Software\Visual Studio\VisualStudio.resx">
       <DependentUpon>VisualStudio.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Software\Visual Studio\VisualStudioCode.resx">
+      <DependentUpon>VisualStudioCode.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Software\Visual Studio\VisualStudioCodeDI.resx">
       <DependentUpon>VisualStudioCodeDI.vb</DependentUpon>
     </EmbeddedResource>

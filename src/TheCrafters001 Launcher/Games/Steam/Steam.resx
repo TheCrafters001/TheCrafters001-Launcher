@@ -118,22 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="RichTextBox1.Text" xml:space="preserve">
-    <value>This launcher is for anyone that wants to host FREE software. 
-Free software is only accepted, and they are virus tested. 
-All software must have a Windows Varient. 
-This software may not be avaliable for all Operating Systems. 
-Wine For Linux has not been tested on this software. 
-Wine For Mac has not been tested on this software. 
-All software on this program is served AS-IS and does not come with warranty. 
-TheCrafters001 is not responsible for any damages made to your computer. 
-Software that comes by a another provider will have their name next to it. 
-This software is under the GNU GPL V3, This software comes AS-IS with no warranty. 
-TheCrafters001 is not responsible for any damage. 
-ALL SOFTWARE MUST BE FREE.
+    <value>Steam, The Ultimate Online Game Platform
+==========================================
+Steam is the ultimate destination for playing, discussing, and creating games.
 
-This project was made possible by:
-- TheCrafters001
-- GNU GPL V3.0</value>
+Access Games Instantly
+With nearly 30,000 games from AAA to indie and everything in-between. Enjoy exclusive deals, automatic game updates, and other great perks.
+
+Join the Community
+Meet new people, join groups, form clans, chat in-game and more! With over 100 million potential friends (or enemies), the fun never stops.
+
+Experience Steam Hardware
+We created the Steam Controller and the VR technologies that power the HTC Vive to making gaming on the PC even better.
+
+Release your Game
+Steamworks is the set of tools and services that help game developers and publishers get the most out of distributing games on Steam.
+</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

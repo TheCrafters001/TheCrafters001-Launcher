@@ -38,4 +38,8 @@ Public Class VLCDI
         pHelp.WindowStyle = ProcessWindowStyle.Normal
         Dim proc As Process = Process.Start(pHelp)
     End Sub
+
+    Private Sub VLCDI_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

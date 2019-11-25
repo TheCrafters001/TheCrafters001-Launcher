@@ -119,12 +119,6 @@
     <Compile Include="About.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AboutBox1.Designer.vb">
-      <DependentUpon>AboutBox1.vb</DependentUpon>
-    </Compile>
-    <Compile Include="AboutBox1.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -136,6 +130,18 @@
       <DependentUpon>Games.vb</DependentUpon>
     </Compile>
     <Compile Include="Games\Games.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Games\Steam\Steam.Designer.vb">
+      <DependentUpon>Steam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Games\Steam\Steam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Games\Steam\SteamDI.Designer.vb">
+      <DependentUpon>SteamDI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Games\Steam\SteamDI.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Misc\Misc.Designer.vb">
@@ -201,16 +207,28 @@
     <Compile Include="Software\VLC\VLCDI.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Software\VSDC\VideoEditor\VSDCVidEdit.Designer.vb">
+      <DependentUpon>VSDCVidEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Software\VSDC\VideoEditor\VSDCVidEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Software\VSDC\VideoEditor\VSDCVidEditDI.Designer.vb">
+      <DependentUpon>VSDCVidEditDI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Software\VSDC\VideoEditor\VSDCVidEditDI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="TC001\TC001.Designer.vb">
       <DependentUpon>TC001.vb</DependentUpon>
     </Compile>
     <Compile Include="TC001\TC001.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="TC001\Blog\Blog.Designer.vb">
-      <DependentUpon>Blog.vb</DependentUpon>
-    </Compile>
-    <Compile Include="TC001\Blog\Blog.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="TC001\Easy-Butler\EasyButlerDI.Designer.vb">
@@ -236,14 +254,14 @@
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AboutBox1.resx">
-      <DependentUpon>AboutBox1.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Games\Games.resx">
       <DependentUpon>Games.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Games\Steam\Steam.resx">
+      <DependentUpon>Steam.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Misc\Misc.resx">
       <DependentUpon>Misc.vb</DependentUpon>
@@ -275,17 +293,23 @@
     <EmbeddedResource Include="Software\VLC\VLCDI.resx">
       <DependentUpon>VLCDI.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Software\VSDC\VideoEditor\VSDCVidEdit.resx">
+      <DependentUpon>VSDCVidEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TC001\TC001.resx">
       <DependentUpon>TC001.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TC001\Blog\Blog.resx">
-      <DependentUpon>Blog.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TC001\Easy-Butler\Easy-Butler.resx">
       <DependentUpon>Easy-Butler.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TC001\Easy-Butler\EasyButlerDI.resx">
       <DependentUpon>EasyButlerDI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TC001\WebBrowser\Web_Browser.resx">
+      <DependentUpon>Web_Browser.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -308,6 +332,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.ico" />
+    <None Include="Resources\WebBrowser.png" />
+    <None Include="Resources\Launcher1.png" />
+    <None Include="Resources\Icon.png" />
+    <None Include="Resources\Steam.png" />
+    <None Include="Resources\VSDCVidEdit.png" />
     <None Include="Resources\58482afbcef1014c0b5e4a21.png" />
     <None Include="Resources\1200px-Visual_Studio_Code_1.35_icon.svg.png" />
     <None Include="Resources\cone_altglass.png" />

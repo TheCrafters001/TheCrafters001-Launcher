@@ -37,17 +37,16 @@ Partial Class Form1
         '
         Me.Button1.Location = New System.Drawing.Point(12, 158)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(274, 124)
+        Me.Button1.Size = New System.Drawing.Size(246, 124)
         Me.Button1.TabIndex = 3
         Me.Button1.Text = "Software"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Enabled = False
-        Me.Button2.Location = New System.Drawing.Point(292, 158)
+        Me.Button2.Location = New System.Drawing.Point(264, 158)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(260, 124)
+        Me.Button2.Size = New System.Drawing.Size(262, 124)
         Me.Button2.TabIndex = 4
         Me.Button2.Text = "Games"
         Me.Button2.UseVisualStyleBackColor = True
@@ -76,7 +75,7 @@ Partial Class Form1
         '
         Me.Button5.Location = New System.Drawing.Point(378, 288)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(174, 150)
+        Me.Button5.Size = New System.Drawing.Size(148, 150)
         Me.Button5.TabIndex = 7
         Me.Button5.Text = "TheCrafters001"
         Me.Button5.UseVisualStyleBackColor = True
@@ -97,7 +96,7 @@ Partial Class Form1
         Me.PictureBox1.Image = Global.TheCrafters001_Launcher.My.Resources.Resources.Launcher
         Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(540, 140)
+        Me.PictureBox1.Size = New System.Drawing.Size(514, 140)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
@@ -106,7 +105,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(564, 450)
+        Me.ClientSize = New System.Drawing.Size(538, 450)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)

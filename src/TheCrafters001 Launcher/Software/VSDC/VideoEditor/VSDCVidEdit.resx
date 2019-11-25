@@ -118,22 +118,63 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="RichTextBox1.Text" xml:space="preserve">
-    <value>This launcher is for anyone that wants to host FREE software. 
-Free software is only accepted, and they are virus tested. 
-All software must have a Windows Varient. 
-This software may not be avaliable for all Operating Systems. 
-Wine For Linux has not been tested on this software. 
-Wine For Mac has not been tested on this software. 
-All software on this program is served AS-IS and does not come with warranty. 
-TheCrafters001 is not responsible for any damages made to your computer. 
-Software that comes by a another provider will have their name next to it. 
-This software is under the GNU GPL V3, This software comes AS-IS with no warranty. 
-TheCrafters001 is not responsible for any damage. 
-ALL SOFTWARE MUST BE FREE.
+    <value>The video editor is intended for editing video files and creating videos of any complexity involving various visual and audio effects. The program offers rich functionality and yet has a simple and intuitive interface, allowing you to create videos with a bare minimum of efforts.
 
-This project was made possible by:
-- TheCrafters001
-- GNU GPL V3.0</value>
+You may download Free Video Editor and use it completely free without restrictions (no trial period, watermarks, or ads). You can, however, support the project by signing up for technical support. We provide fast and full support to solve all your problems when using our products. 
+
+For Software Support, Visit this page: http://www.videosoftdev.com/help-us
+
+Non-linear video editor
+Our editor is a non-linear tool. This means that unlike in most other editors, where scenes come one after another in a linear sequence and certain order, our software allows objects to be placed in any position on the timeline and have any size. Besides, various parameters, shape and position of objects can change arbitrarily over time.
+
+Visual and audio effects
+You can apply various visual and audio effects to your videos to achieve the necessary result. Since the number of available visual effect is very high, they are split into five categories for ease of navigation: color correction, object transformation, object filters, transition effects and special fx.
+
+Blending modes and Instagram-like filters
+One more way of changing the look of your video image according to your preferences is color blending. Using a wide array of adjustable parameters, you can attach a unique professional style to your video. Newbies or those, who would like to save time, can benefit from stylish Instagram-like filters applied in one click.
+
+Masking
+VSDC Free Video Editor allows for creating different shaped masks for hiding, blurring or highlighting certain elements in your video. You can use it to apply special effects inside or outside the masked area. One of the most common reasons for masking are to blur a face to protect the identity or remove unwanted marks.
+
+Easy export to social networks
+To prepare a video for Facebook, YouTube, Instagram, Twitter and Vimeo without any problems, VSDC Free Video Editor offers you special export profiles which significantly reduce the stress of selecting a suitable format and meeting all the requirements.
+
+Subpixel accuracy
+Objects in a scene are positioned with subpixel accuracy, which makes for smooth animation, rotation, transformation and precise relative positioning.
+
+Support of popular formats
+Our software supports virtually all video, image and audio formats and codecs. That is why you won’t need any additional conversion tools to edit your files, as is often the case with other programs.
+
+4K and HD export
+VSDC is currently the only free video editor that allows you to export in a new H265/HEVC codec to maintain the highest quality at a minimum file size which is essential for those often processing 4K and HD files.
+
+Creation of videos for specific multimedia devices
+Thanks to a large set of preconfigured profiles, you can easily create videos for most popular multimedia devices, such as DVD players, iPod/iPhone/iPad, PSP, Galaxy, any smartphones and regular phones, Sony PlayStation, Xbox, Zune, Archos, iRiver, Creative Zen, Blackberry, MP4 players and many others.
+
+Working with charts
+You can create diagrams of different kinds, including 3D diagrams: Bar, Stacked Bar, Point, Bubble, Line, Scatter Line, Fast Line, Step Line, Spline, Area, Spline Area, Stacked Area, Stacked Spline Area, Range Bar, Gantt, Pie, Pie 3D, Torus 3D, Radar Point, Radar Line, Radar Area, Radar Spline, Radar Spline Area, Funnel, Pyramid, Pyramid 3D, High Low, Candle Stick. These objects can be based on dynamically changing data of different types. Besides, the appearance of diagrams is fully customizable (appearance of charts, coordinate axes, user-defined axes, legends, names of charts and axes, lines, labels and other elements), which will help you tailor them to your specific needs. Integrated color themes make it possible to quickly change the way your charts look.
+
+Video library (to be included in the next program release)
+The editor software lets you create your own library of multimedia files with brief or detailed descriptions. This will help you organize your video collection and simplify access to the necessary files.
+
+Video stabilization tool
+Footage taken from drones, action cameras or other devices on the go often needs improvement. VSDC Stabilization tool, as your virtual tripod, helps remove jitter or any other shaking effects, caused by camera movement and turn it into a much smoother video image.
+
+YouTube uploader
+VSDC Free Video Editor not only provides ready-made profiles for exporting to social networks, but also offers you to upload your video directly to YouTube right from the app without switching windows or tabs.
+
+Built-in DVD burning tool
+The editor comes with a DVD burning tool, allowing you to easily burn the results of your work to optical discs.
+
+Video File Converter
+The application is designed to quickly convert video files from one format to another. It has some basic features for editing videos: removing unneeded segments, splitting your video into parts, and merging several files into one.
+
+Desktop video capture
+The video editor features a desktop video capture utility that saves captured footage to a video file for subsequent processing in the editor.
+
+Video capturing
+Another feature of the our editor is the ability to capture video from various video tuners, webcams, IP сameras and save the captured footage on your computer in an arbitrary format for subsequent editing.
+</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

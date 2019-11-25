@@ -10,12 +10,6 @@ Public Class About
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        If (Not System.IO.Directory.Exists("C:\Launcher")) Then
-            System.IO.Directory.CreateDirectory("C:\Launcher")
-        End If
-        If (Not System.IO.Directory.Exists("C:\Launcher\Update")) Then
-            System.IO.Directory.CreateDirectory("C:\Launcher\Update")
-        End If
         AutoUpdater.ShowSkipButton = False
         AutoUpdater.ShowRemindLaterButton = True
         AutoUpdater.ReportErrors = True
@@ -23,7 +17,7 @@ Public Class About
         AutoUpdater.LetUserSelectRemindLater = True
         AutoUpdater.RemindLaterTimeSpan = RemindLaterFormat.Hours
         AutoUpdater.RemindLaterAt = 1
-        AutoUpdater.UpdateFormSize = New System.Drawing.Size(800, 600)
+        AutoUpdater.UpdateFormSize = New System.Drawing.Size(554, 489)
         AutoUpdater.Start("http://api.thecrafters001.ga/updates/Launcher.xml")
     End Sub
 

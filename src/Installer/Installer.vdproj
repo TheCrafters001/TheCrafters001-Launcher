@@ -40,6 +40,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_0EF2EABE9812FA32FD8FDBEBA59FF1C3"
+        "OwnerKey" = "8:_8F819E3016684A6FBA4C729887F2835A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0EF2EABE9812FA32FD8FDBEBA59FF1C3"
+        "OwnerKey" = "8:_BE5D964901C64FE68CAAD265A7489F17"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_113D8C85839441168D0A2A8BA4234CC2"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -238,6 +250,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_61ABC3B3EC7D46B2ABFFED1BB1A7534F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_6671825FAB0F48F49CBF05F7723E992C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -364,6 +382,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_8F819E3016684A6FBA4C729887F2835A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_953C1938A7984B72BE0BC94EBEE8E679"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -371,6 +395,12 @@
         "Entry"
         {
         "MsmKey" = "8:_97BCDC6AD07245E3A4F91AAD618402A6"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9D035489BF0B4245A56F1A693D5163C6"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -467,6 +497,18 @@
         "Entry"
         {
         "MsmKey" = "8:_BAAFD53D78FA4EDBB65F8F43BC415DBF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BE07A2A9C8804CF5B6EE326E436727B5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BE5D964901C64FE68CAAD265A7489F17"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -670,18 +712,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_F0CCE6AD7C1441C2BAF6160ED3D4AB39"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F0EE1A22429E4BB4B684408D9163723D"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_F11A89ECD46144708EF74E2054400B2B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -755,7 +785,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_8F819E3016684A6FBA4C729887F2835A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_BE5D964901C64FE68CAAD265A7489F17"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -768,6 +804,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_0EF2EABE9812FA32FD8FDBEBA59FF1C3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -1616,6 +1658,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_61ABC3B3EC7D46B2ABFFED1BB1A7534F"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\..\\Desktop\\IMG\\Browser\\webbrowser_GGF_icon.ico"
+            "TargetName" = "8:webbrowser_GGF_icon.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_1C21CAC8DDCD458290C2BD92B3AECF52"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6671825FAB0F48F49CBF05F7723E992C"
             {
             "SourcePath" = "8:C:\\npm\\Browser\\release-builds\\compiled\\browser\\locales\\sv.pak"
@@ -2076,6 +2138,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9D035489BF0B4245A56F1A693D5163C6"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\..\\Desktop\\IMG\\Launcher_Banner_Install.bmp"
+            "TargetName" = "8:Launcher_Banner_Install.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_1C21CAC8DDCD458290C2BD92B3AECF52"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9DE9529E04DC46519136BC6418331E41"
             {
             "SourcePath" = "8:C:\\npm\\Browser\\release-builds\\compiled\\browser\\blink_image_resources_200_percent.pak"
@@ -2373,6 +2455,26 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BE07A2A9C8804CF5B6EE326E436727B5"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\..\\Desktop\\IMG\\Launcher_Splash_install.bmp"
+            "TargetName" = "8:Launcher_Splash_install.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_1C21CAC8DDCD458290C2BD92B3AECF52"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
@@ -3047,46 +3149,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F0CCE6AD7C1441C2BAF6160ED3D4AB39"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\..\\Desktop\\IMG\\Launcher_Splash.bmp"
-            "TargetName" = "8:Launcher_Splash.bmp"
-            "Tag" = "8:"
-            "Folder" = "8:_1C21CAC8DDCD458290C2BD92B3AECF52"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:TRUE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F0EE1A22429E4BB4B684408D9163723D"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\..\\Desktop\\IMG\\Launcher Installer Banner.bmp"
-            "TargetName" = "8:Launcher Installer Banner.bmp"
-            "Tag" = "8:"
-            "Folder" = "8:_1C21CAC8DDCD458290C2BD92B3AECF52"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:TRUE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F11A89ECD46144708EF74E2054400B2B"
             {
             "SourcePath" = "8:C:\\npm\\Browser\\release-builds\\compiled\\browser\\api-ms-win-core-string-l1-1-0.dll"
@@ -3407,15 +3469,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:TheCrafters001 Launcher"
-        "ProductCode" = "8:{C6FF05E6-4C72-4E30-8D3E-5680BDBC0120}"
-        "PackageCode" = "8:{6349318D-A17F-4F77-B768-9E60883DC8F3}"
+        "ProductCode" = "8:{D45B3A90-84EC-4D74-AB13-01666C49E971}"
+        "PackageCode" = "8:{3672CC44-45E0-45AB-A0B6-3BD69D45AB17}"
         "UpgradeCode" = "8:{BB6BFC33-54D7-4718-A7D9-E6AE1ED56522}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:0.2.0"
+        "ProductVersion" = "8:0.2.1"
         "Manufacturer" = "8:TheCrafters001"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -3528,6 +3590,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_04D4D96E1A024D8284C2CB46573B5B04"
+            {
+            "Name" = "8:Text Hash"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_8F819E3016684A6FBA4C729887F2835A"
+            "Folder" = "8:_5199AB2A4F504C84B07BB6FA4D6656E0"
+            "WorkingFolder" = "8:_1C21CAC8DDCD458290C2BD92B3AECF52"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_14CE9EA04DF24CC29B7B4340B4DA0BD8"
             {
             "Name" = "8:TheCrafters001 Launcher"
@@ -3542,6 +3618,20 @@
             "Icon" = "8:_AA46CB9A4E1D43C7937488A88799B0AD"
             "Feature" = "8:"
             }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_ACAFFAAF0E524A61BCD359C26D04ADA2"
+            {
+            "Name" = "8:TheCrafters001 Browser"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_DDF42FDC369C4B0F903652ECBE80C51D"
+            "Folder" = "8:_5199AB2A4F504C84B07BB6FA4D6656E0"
+            "WorkingFolder" = "8:_7154B4329ACE4D2291607D0FE6671547"
+            "Icon" = "8:_61ABC3B3EC7D46B2ABFFED1BB1A7534F"
+            "Feature" = "8:"
+            }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_B6F9CE3A4B2B49C8AAB27556C16B6224"
             {
             "Name" = "8:TheCrafters001 Launcher"
@@ -3554,6 +3644,20 @@
             "Folder" = "8:_C631FC931C2041528B298DAA2E2924AE"
             "WorkingFolder" = "8:_1C21CAC8DDCD458290C2BD92B3AECF52"
             "Icon" = "8:_AA46CB9A4E1D43C7937488A88799B0AD"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_D4FF5BF2C0D849C893AFD072B7C3694B"
+            {
+            "Name" = "8:Super Text Adventure!"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_BE5D964901C64FE68CAAD265A7489F17"
+            "Folder" = "8:_5199AB2A4F504C84B07BB6FA4D6656E0"
+            "WorkingFolder" = "8:_1C21CAC8DDCD458290C2BD92B3AECF52"
+            "Icon" = "8:"
             "Feature" = "8:"
             }
         }
@@ -3590,7 +3694,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_F0EE1A22429E4BB4B684408D9163723D"
+                            "Value" = "8:_9D035489BF0B4245A56F1A693D5163C6"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "ShowProgress"
@@ -3635,7 +3739,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_F0EE1A22429E4BB4B684408D9163723D"
+                            "Value" = "8:_9D035489BF0B4245A56F1A693D5163C6"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "ShowProgress"
@@ -3680,7 +3784,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_F0EE1A22429E4BB4B684408D9163723D"
+                            "Value" = "8:_9D035489BF0B4245A56F1A693D5163C6"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -3712,7 +3816,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_F0EE1A22429E4BB4B684408D9163723D"
+                            "Value" = "8:_9D035489BF0B4245A56F1A693D5163C6"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "UpdateText"
@@ -3763,79 +3867,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_F0EE1A22429E4BB4B684408D9163723D"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_90787C8610E6435A9BC51E985F386C35"
-                    {
-                    "Sequence" = "3:300"
-                    "DisplayName" = "8:Confirm Installation"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminConfirmDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:2"
-                            "Value" = "8:_F0EE1A22429E4BB4B684408D9163723D"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_D59B4AA615D64FAEBBE5DE41F35C519F"
-                    {
-                    "Sequence" = "3:100"
-                    "DisplayName" = "8:Welcome"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminWelcomeDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:2"
-                            "Value" = "8:_F0EE1A22429E4BB4B684408D9163723D"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                            "CopyrightWarning"
-                            {
-                            "Name" = "8:CopyrightWarning"
-                            "DisplayName" = "8:#1002"
-                            "Description" = "8:#1102"
-                            "Type" = "3:3"
-                            "ContextData" = "8:"
-                            "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1202"
-                            "DefaultValue" = "8:#1202"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                            "Welcome"
-                            {
-                            "Name" = "8:Welcome"
-                            "DisplayName" = "8:#1003"
-                            "Description" = "8:#1103"
-                            "Type" = "3:3"
-                            "ContextData" = "8:"
-                            "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1203"
-                            "DefaultValue" = "8:#1203"
+                            "Value" = "8:_9D035489BF0B4245A56F1A693D5163C6"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -3867,7 +3899,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_F0EE1A22429E4BB4B684408D9163723D"
+                            "Value" = "8:_9D035489BF0B4245A56F1A693D5163C6"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -3890,7 +3922,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:0"
                             "Setting" = "3:2"
-                            "Value" = "8:_F0CCE6AD7C1441C2BAF6160ED3D4AB39"
+                            "Value" = "8:_BE07A2A9C8804CF5B6EE326E436727B5"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "Sunken"
@@ -3926,7 +3958,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_F0EE1A22429E4BB4B684408D9163723D"
+                            "Value" = "8:_9D035489BF0B4245A56F1A693D5163C6"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "CopyrightWarning"
@@ -3975,7 +4007,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_F0EE1A22429E4BB4B684408D9163723D"
+                            "Value" = "8:_9D035489BF0B4245A56F1A693D5163C6"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "InstallAllUsersVisible"
@@ -4001,6 +4033,34 @@
         }
         "ProjectOutput"
         {
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_8F819E3016684A6FBA4C729887F2835A"
+            {
+            "SourcePath" = "8:..\\TextHash\\obj\\Debug\\TextHash.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_1C21CAC8DDCD458290C2BD92B3AECF52"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{A5A59D99-55AA-4983-A437-0E5374A48D5C}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_AA46CB9A4E1D43C7937488A88799B0AD"
             {
             "SourcePath" = "8:..\\TheCrafters001 Launcher\\obj\\Debug\\TheCrafters001 Launcher.exe"
@@ -4024,6 +4084,34 @@
             "OutputConfiguration" = "8:"
             "OutputGroupCanonicalName" = "8:Built"
             "OutputProjectGuid" = "8:{1A80C105-88BA-4BE0-8BC2-E7FF9D26CE42}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_BE5D964901C64FE68CAAD265A7489F17"
+            {
+            "SourcePath" = "8:..\\Super Text Adventure!\\obj\\Debug\\Super Text Adventure!.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_1C21CAC8DDCD458290C2BD92B3AECF52"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{60484780-C640-44AC-A1DC-582BD4EEB675}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {

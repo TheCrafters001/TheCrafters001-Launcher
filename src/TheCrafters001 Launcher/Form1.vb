@@ -17,7 +17,7 @@ Public Class Form1
         Misc.Show()
     End Sub
 
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+    Private Sub Button4_Click(sender As Object, e As EventArgs) 
 
     End Sub
 

@@ -132,6 +132,12 @@
     <Compile Include="Games\Games.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Games\STA\STA.Designer.vb">
+      <DependentUpon>STA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Games\STA\STA.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Games\Steam\Steam.Designer.vb">
       <DependentUpon>Steam.vb</DependentUpon>
     </Compile>
@@ -169,6 +175,12 @@
       <DependentUpon>Software.vb</DependentUpon>
     </Compile>
     <Compile Include="Software\Software.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Software\TextHash\TextHash.Designer.vb">
+      <DependentUpon>TextHash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Software\TextHash\TextHash.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Software\Visual Studio\VisualStudio.Designer.vb">
@@ -260,6 +272,9 @@
     <EmbeddedResource Include="Games\Games.resx">
       <DependentUpon>Games.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Games\STA\STA.resx">
+      <DependentUpon>STA.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Games\Steam\Steam.resx">
       <DependentUpon>Steam.vb</DependentUpon>
     </EmbeddedResource>
@@ -274,6 +289,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Software\Software.resx">
       <DependentUpon>Software.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Software\TextHash\TextHash.resx">
+      <DependentUpon>TextHash.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Software\Visual Studio\VisualStudio.resx">
       <DependentUpon>VisualStudio.vb</DependentUpon>

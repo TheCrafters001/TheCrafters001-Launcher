@@ -22,8 +22,10 @@ Partial Class Games
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Games))
         Me.Button1 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -48,13 +50,25 @@ Partial Class Games
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(93, 158)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(122, 23)
+        Me.Button2.TabIndex = 4
+        Me.Button2.Text = "Super Text Adventure!"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Games
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(538, 450)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Games"
@@ -67,4 +81,5 @@ Partial Class Games
 
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
 End Class

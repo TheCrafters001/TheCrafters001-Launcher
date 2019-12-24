@@ -3,15 +3,16 @@ Imports System.IO
 Imports System.Net.Http
 Imports System.Net
 
-Public Class VLCDI
+
+Public Class FlashPlayer2DI
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         DownloadFile()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim pHelp As New ProcessStartInfo
-        pHelp.FileName = "C:\Launcher\Downloads\VLC_Install.exe"
-        pHelp.Arguments = "/s /d=C:\Launcher\Apps\VLC "
+        pHelp.FileName = "C:\Launcher\Downloads\FreeTube_Setup.exe"
+        pHelp.Arguments = ""
         pHelp.UseShellExecute = True
         pHelp.WindowStyle = ProcessWindowStyle.Normal
         Dim proc As Process = Process.Start(pHelp)
@@ -26,16 +27,11 @@ Public Class VLCDI
         End If
 
         Using client = New WebClient()
-            client.DownloadFile(New Uri("https://get.videolan.org/vlc/3.0.8/win64/vlc-3.0.8-win64.exe"), "C:\Launcher\Downloads\VLC_Install.exe")
+            client.DownloadFile(New Uri("https://github.com/FreeTubeApp/FreeTube/releases/download/v0.7.2-beta/FreeTube.Setup.0.7.2.exe"), "C:\Launcher\Downloads\FreeTube_Setup.exe")
         End Using
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Dim pHelp As New ProcessStartInfo
-        pHelp.FileName = "C:\Launcher\Apps\VLC\uninstall.exe"
-        pHelp.Arguments = "/s"
-        pHelp.UseShellExecute = True
-        pHelp.WindowStyle = ProcessWindowStyle.Normal
-        Dim proc As Process = Process.Start(pHelp)
+        MessageBox.Show("FreeTube must be uninstalled Manually.", "FreeTube Uninstall", MessageBoxButtons.OK, MessageBoxIcon.Error)
     End Sub
 End Class

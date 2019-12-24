@@ -118,9 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="RichTextBox1.Text" xml:space="preserve">
-    <value>With Easy Butler, you can update, and publish your games with ease. When you use Easy Butler, it pushes a .ZIP file to your game page, with the version you have pushed. While Easy Butler relies on Butler to be installed, Easy Butler can automaticly update all the information! If Butler has an update, you can click "Update" on the application, and it will automaticly launch an updater, which elevates permissions, then launches butler with said eleivated permissions, then updates it! Easy huh? Course it is. This basicly adds a GUI to butler, the right way!
-This project was made possible by:
-- TheCrafters001
-- GNU GPL V3.0</value>
+    <value>A faster way to do just about anything
+When you’re on the web, you’re on a mission. Big or small, work or play – Chrome has the smarts and speed you need to do, create, and explore online.
+
+Help from Google, for everything you want to do
+Chrome has everything you need to make the most of the web, like quick answers in your address bar, one-click translation, and personalized articles for you on your phone.
+
+Chrome security is your browsing superpower
+Don't really know what can go wrong on the web? You don't have to. Chrome automatically protects you from security issues like phishing and dangerous sites.
+
+Go anywhere, do everything
+Chrome works on any operating system, and on all your devices. Switch between your laptop and phone, customize any way you want, and keep doing more.
+
+Download Chrome Today!</value>
   </data>
 </root>

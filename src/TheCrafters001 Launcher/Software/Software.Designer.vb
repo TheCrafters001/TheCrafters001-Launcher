@@ -30,6 +30,10 @@ Partial Class Software
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -100,11 +104,53 @@ Partial Class Software
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
+        'Button7
+        '
+        Me.Button7.Location = New System.Drawing.Point(12, 187)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(75, 23)
+        Me.Button7.TabIndex = 8
+        Me.Button7.Text = "FreeTube"
+        Me.Button7.UseVisualStyleBackColor = True
+        '
+        'Button8
+        '
+        Me.Button8.Enabled = False
+        Me.Button8.Location = New System.Drawing.Point(291, 187)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(235, 23)
+        Me.Button8.TabIndex = 9
+        Me.Button8.UseVisualStyleBackColor = True
+        '
+        'Button9
+        '
+        Me.Button9.Enabled = False
+        Me.Button9.Location = New System.Drawing.Point(93, 187)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(90, 23)
+        Me.Button9.TabIndex = 10
+        Me.Button9.Text = "Mozilla FireFox"
+        Me.Button9.UseVisualStyleBackColor = True
+        '
+        'Button10
+        '
+        Me.Button10.Enabled = False
+        Me.Button10.Location = New System.Drawing.Point(189, 187)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(96, 23)
+        Me.Button10.TabIndex = 11
+        Me.Button10.Text = "Google Chrome"
+        Me.Button10.UseVisualStyleBackColor = True
+        '
         'Software
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(538, 450)
+        Me.Controls.Add(Me.Button10)
+        Me.Controls.Add(Me.Button9)
+        Me.Controls.Add(Me.Button8)
+        Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
@@ -131,4 +177,8 @@ Partial Class Software
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
+    Friend WithEvents Button7 As Button
+    Friend WithEvents Button8 As Button
+    Friend WithEvents Button9 As Button
+    Friend WithEvents Button10 As Button
 End Class

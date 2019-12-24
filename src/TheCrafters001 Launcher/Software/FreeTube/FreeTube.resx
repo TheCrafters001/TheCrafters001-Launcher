@@ -117,4 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="RichTextBox1.Text" xml:space="preserve">
+    <value>FreeTube is an open source desktop YouTube player built with privacy in mind. Use YouTube without advertisements and prevent Google from tracking you with their cookies and JavaScript. Available for Windows, Mac &amp; Linux thanks to Electron.
+
+Please note that FreeTube is currently in Beta. While it should work well for most users, there are still bugs and missing features that need to be addressed.</value>
+  </data>
 </root>

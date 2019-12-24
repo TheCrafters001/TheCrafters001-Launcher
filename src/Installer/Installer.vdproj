@@ -83,6 +83,12 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_6338C614A37249059332EA7EDE4E698B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_BE5D964901C64FE68CAAD265A7489F17"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -394,15 +400,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:TheCrafters001 Launcher"
-        "ProductCode" = "8:{D45B3A90-84EC-4D74-AB13-01666C49E971}"
-        "PackageCode" = "8:{3672CC44-45E0-45AB-A0B6-3BD69D45AB17}"
+        "ProductCode" = "8:{D2614738-8466-4E89-ACC0-97CCB2A27D87}"
+        "PackageCode" = "8:{552D7A2B-3F39-4C02-9AA0-671FB0C562C3}"
         "UpgradeCode" = "8:{BB6BFC33-54D7-4718-A7D9-E6AE1ED56522}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:0.2.1"
+        "ProductVersion" = "8:0.3.0"
         "Manufacturer" = "8:TheCrafters001"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -944,9 +950,37 @@
         }
         "ProjectOutput"
         {
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_6338C614A37249059332EA7EDE4E698B"
+            {
+            "SourcePath" = "8:..\\FileDownloads\\obj\\Release\\FileDownloads.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_1C21CAC8DDCD458290C2BD92B3AECF52"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{094A06CA-5488-4C36-988D-A4E490264EB5}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_8F819E3016684A6FBA4C729887F2835A"
             {
-            "SourcePath" = "8:..\\TextHash\\obj\\Debug\\TextHash.exe"
+            "SourcePath" = "8:..\\TextHash\\obj\\Release\\TextHash.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_1C21CAC8DDCD458290C2BD92B3AECF52"
@@ -974,7 +1008,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_AA46CB9A4E1D43C7937488A88799B0AD"
             {
-            "SourcePath" = "8:..\\TheCrafters001 Launcher\\obj\\Debug\\TheCrafters001 Launcher.exe"
+            "SourcePath" = "8:"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_1C21CAC8DDCD458290C2BD92B3AECF52"
@@ -1002,7 +1036,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_BE5D964901C64FE68CAAD265A7489F17"
             {
-            "SourcePath" = "8:..\\Super Text Adventure!\\obj\\Debug\\Super Text Adventure!.exe"
+            "SourcePath" = "8:..\\Super Text Adventure!\\obj\\Release\\Super Text Adventure!.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_1C21CAC8DDCD458290C2BD92B3AECF52"

@@ -88,6 +88,9 @@
     <Reference Include="AutoUpdater.NET, Version=1.5.8.0, Culture=neutral, PublicKeyToken=501435c91b35f4bc, processorArchitecture=MSIL">
       <HintPath>..\packages\Autoupdater.NET.Official.1.5.8\lib\net40\AutoUpdater.NET.dll</HintPath>
     </Reference>
+    <Reference Include="FileDownloads">
+      <HintPath>..\FileDownloads\bin\Release\FileDownloads.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -117,6 +120,12 @@
       <DependentUpon>About.vb</DependentUpon>
     </Compile>
     <Compile Include="About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\Icon_SystemMenu.Designer.vb">
+      <DependentUpon>Icon_SystemMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Icon_SystemMenu.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.vb">
@@ -170,6 +179,30 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Software\FireFox\FireFox.Designer.vb">
+      <DependentUpon>FireFox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Software\FireFox\FireFox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Software\FreeTube\FreeTube.Designer.vb">
+      <DependentUpon>FreeTube.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Software\FreeTube\FreeTube.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Software\FreeTube\FreeTubeDI.Designer.vb">
+      <DependentUpon>FreeTubeDI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Software\FreeTube\FreeTubeDI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Software\GoogleChrome\GoogleChrome.Designer.vb">
+      <DependentUpon>GoogleChrome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Software\GoogleChrome\GoogleChrome.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Software\Software.Designer.vb">
       <DependentUpon>Software.vb</DependentUpon>
@@ -237,6 +270,18 @@
     <Compile Include="SplashScreen1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="TC001\FlashPlayer2\FlashPlayer2.Designer.vb">
+      <DependentUpon>FlashPlayer2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TC001\FlashPlayer2\FlashPlayer2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TC001\FlashPlayer2\FlashPlayer2DI.Designer.vb">
+      <DependentUpon>FlashPlayer2DI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TC001\FlashPlayer2\FlashPlayer2DI.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="TC001\TC001.Designer.vb">
       <DependentUpon>TC001.vb</DependentUpon>
     </Compile>
@@ -266,6 +311,9 @@
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Components\Icon_SystemMenu.resx">
+      <DependentUpon>Icon_SystemMenu.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
@@ -286,6 +334,18 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Software\FireFox\FireFox.resx">
+      <DependentUpon>FireFox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Software\FreeTube\FreeTube.resx">
+      <DependentUpon>FreeTube.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Software\FreeTube\FreeTubeDI.resx">
+      <DependentUpon>FreeTubeDI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Software\GoogleChrome\GoogleChrome.resx">
+      <DependentUpon>GoogleChrome.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Software\Software.resx">
       <DependentUpon>Software.vb</DependentUpon>
@@ -316,6 +376,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SplashScreen1.resx">
       <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TC001\FlashPlayer2\FlashPlayer2.resx">
+      <DependentUpon>FlashPlayer2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TC001\FlashPlayer2\FlashPlayer2DI.resx">
+      <DependentUpon>FlashPlayer2DI.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TC001\TC001.resx">
       <DependentUpon>TC001.vb</DependentUpon>
@@ -350,6 +416,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.ico" />
+    <None Include="Resources\Flash_Two_Logo.png" />
+    <None Include="Resources\firefox-logo-300x310.png" />
+    <None Include="Resources\chrome-512.png" />
+    <None Include="Resources\FreeTube_256x256.png" />
     <None Include="Resources\WebBrowser.png" />
     <None Include="Resources\Launcher1.png" />
     <None Include="Resources\Icon.png" />

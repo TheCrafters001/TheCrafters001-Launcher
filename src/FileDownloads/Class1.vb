@@ -5,6 +5,7 @@ Imports System.Net
 
 
 Public Class Class1
+
     Public Shared Sub DownloadFile(ByVal Exe_URL As String, ByVal Exe_Output As String)
         If (Not System.IO.Directory.Exists("C:\Launcher")) Then
             System.IO.Directory.CreateDirectory("C:\Launcher")
@@ -53,5 +54,4 @@ Public Class Class1
             box.Label1.Text = ProgramName & " cannot be uninstalled. It has to be uninstalled manually."
         End If
     End Sub
-
 End Class

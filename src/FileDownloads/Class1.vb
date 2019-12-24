@@ -5,11 +5,7 @@ Imports System.Net
 
 
 Public Class Class1
-
-    Dim Installer_Run As New ProcessStartInfo
-    Dim Uninstaller_Run As New ProcessStartInfo
-
-    Public Sub DownloadFile(ByVal Exe_URL As String, ByVal Exe_Output As String)
+    Public Shared Sub DownloadFile(ByVal Exe_URL As String, ByVal Exe_Output As String)
         If (Not System.IO.Directory.Exists("C:\Launcher")) Then
             System.IO.Directory.CreateDirectory("C:\Launcher")
         End If
@@ -21,7 +17,7 @@ Public Class Class1
         End Using
     End Sub
 
-    Public Sub DownloadFileMSI(ByVal MSI_URL As String, ByVal MSI_Output As String)
+    Public Shared Sub DownloadFileMSI(ByVal MSI_URL As String, ByVal MSI_Output As String)
         If (Not System.IO.Directory.Exists("C:\Launcher")) Then
             System.IO.Directory.CreateDirectory("C:\Launcher")
         End If
@@ -33,7 +29,8 @@ Public Class Class1
         End Using
     End Sub
 
-    Public Sub Install(ByVal FileName As String, ByVal Extention As String, ByVal Arguments As String)
+    Public Shared Sub Install(ByVal FileName As String, ByVal Extention As String, ByVal Arguments As String)
+        Dim Installer_Run As New ProcessStartInfo
         Installer_Run.FileName = "C:\Launcher\Downloads\" & FileName & "." & Extention
         Installer_Run.Arguments = Arguments
         Installer_Run.UseShellExecute = True
@@ -41,7 +38,8 @@ Public Class Class1
         Dim proc As Process = Process.Start(Installer_Run)
     End Sub
 
-    Public Sub Uninstall(ByVal CanBeUninstalled As Boolean, ByVal ProgramName As String, ByVal UninstallEXE As String, ByVal UninstallArguments As String)
+    Public Shared Sub Uninstall(ByVal CanBeUninstalled As Boolean, ByVal ProgramName As String, ByVal UninstallEXE As String, ByVal UninstallArguments As String)
+        Dim Uninstaller_Run As New ProcessStartInfo
         If CanBeUninstalled = True Then
             Uninstaller_Run.FileName = "C:\Launcher\Apps\" & ProgramName & UninstallEXE & ".exe"
             Uninstaller_Run.Arguments = UninstallArguments

@@ -1,37 +1,21 @@
 ﻿Imports System.HttpStyleUriParser
 Imports System.IO
 Imports System.Net.Http
+Imports FileDownloads
+Imports FileDownloads.Class1
 Imports System.Net
 
 
 Public Class FlashPlayer2DI
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        DownloadFile()
+        FileDownloads.Class1.DownloadFile("https://github.com/TheCrafters001/Flash-Player-2/releases/latest/download/FlashPlayer_Installer.exe", "FlashPlayer_Installer")
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Dim pHelp As New ProcessStartInfo
-        pHelp.FileName = "C:\Launcher\Downloads\FreeTube_Setup.exe"
-        pHelp.Arguments = ""
-        pHelp.UseShellExecute = True
-        pHelp.WindowStyle = ProcessWindowStyle.Normal
-        Dim proc As Process = Process.Start(pHelp)
-    End Sub
-
-    Public Sub DownloadFile()
-        If (Not System.IO.Directory.Exists("C:\Launcher")) Then
-            System.IO.Directory.CreateDirectory("C:\Launcher")
-        End If
-        If (Not System.IO.Directory.Exists("C:\Launcher\Downloads")) Then
-            System.IO.Directory.CreateDirectory("C:\Launcher\Downloads")
-        End If
-
-        Using client = New WebClient()
-            client.DownloadFile(New Uri("https://github.com/FreeTubeApp/FreeTube/releases/download/v0.7.2-beta/FreeTube.Setup.0.7.2.exe"), "C:\Launcher\Downloads\FreeTube_Setup.exe")
-        End Using
+        FileDownloads.Class1.Install("FlashPlayer_Installer", "exe", "/SILENT /DIR=""C:\Launcher\Apps\Flash Player 2""")
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        MessageBox.Show("FreeTube must be uninstalled Manually.", "FreeTube Uninstall", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        FileDownloads.Class1.Uninstall(True, "Flash Player 2", "unins000", "/SILENT")
     End Sub
 End Class

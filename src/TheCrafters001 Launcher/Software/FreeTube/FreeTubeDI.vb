@@ -7,7 +7,7 @@ Imports System.Net
 
 Public Class FreeTubeDI
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        FileDownloads.Class1.DownloadFile("https://github.com/FreeTubeApp/FreeTube/releases/download/v0.7.2-beta/FreeTube.Setup.0.7.2.exe", "FreeTube",)
+        FileDownloads.Class1.DownloadFile("https://github.com/FreeTubeApp/FreeTube/releases/download/v0.7.2-beta/FreeTube.Setup.0.7.2.exe", "FreeTube")
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click

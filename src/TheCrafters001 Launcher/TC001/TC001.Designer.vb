@@ -51,7 +51,6 @@ Partial Class TC001
         '
         'Button3
         '
-        Me.Button3.Enabled = False
         Me.Button3.Location = New System.Drawing.Point(181, 158)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(82, 23)

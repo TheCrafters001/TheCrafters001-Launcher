@@ -1,0 +1,8 @@
+Thank you for installing TheCrafters001 Launcher!
+
+==================
+=   Changelog    =
+==================
+
+Version 0.3.1
+* Revert Visual Style.

@@ -32,10 +32,10 @@ Partial Class About
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
@@ -44,12 +44,13 @@ Partial Class About
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.Gray
         Me.Button1.Location = New System.Drawing.Point(451, 415)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 9
         Me.Button1.Text = "Close"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'GroupBox3
         '
@@ -132,33 +133,6 @@ Partial Class About
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Icon"
         '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(12, 420)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(72, 13)
-        Me.Label4.TabIndex = 10
-        Me.Label4.Text = "Version X.X.X"
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(337, 415)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(108, 23)
-        Me.Button2.TabIndex = 11
-        Me.Button2.Text = "Check For Updates"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(256, 415)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 12
-        Me.Button3.Text = "Submit"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
         'PictureBox1
         '
         Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
@@ -170,10 +144,40 @@ Partial Class About
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(12, 420)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(72, 13)
+        Me.Label4.TabIndex = 10
+        Me.Label4.Text = "Version X.X.X"
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.Gray
+        Me.Button2.Location = New System.Drawing.Point(337, 415)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(108, 23)
+        Me.Button2.TabIndex = 11
+        Me.Button2.Text = "Check For Updates"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.Gray
+        Me.Button3.Location = New System.Drawing.Point(256, 415)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.TabIndex = 12
+        Me.Button3.Text = "Submit"
+        Me.Button3.UseVisualStyleBackColor = False
+        '
         'About
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Gray
         Me.ClientSize = New System.Drawing.Size(538, 450)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -182,6 +186,7 @@ Partial Class About
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
+        Me.ForeColor = System.Drawing.Color.Black
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False

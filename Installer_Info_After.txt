@@ -3,6 +3,12 @@ Thank you for installing TheCrafters001 Launcher!
 ==================
 =   Changelog    =
 ==================
+Version 0.4.0
+* New Settings Menu
+* Fix NotifyIcon to have Clickable Links
+* Update Start Screen
+* Remove Misc/Other for the time being
+* Update Look and Feel
 
 Version 0.3.1
 * Revert Visual Style.

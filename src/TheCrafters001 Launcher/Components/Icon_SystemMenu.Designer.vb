@@ -44,6 +44,7 @@ Partial Class Icon_SystemMenu
         Me.SteamToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FlashPlayer2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContextMenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -69,87 +70,87 @@ Partial Class Icon_SystemMenu
         '
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OpenLauncherToolStripMenuItem, Me.ToolStripSeparator1, Me.SoftwareToolStripMenuItem, Me.GamesToolStripMenuItem, Me.ToolStripSeparator2, Me.ExitToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(156, 104)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(181, 126)
         '
         'OpenLauncherToolStripMenuItem
         '
         Me.OpenLauncherToolStripMenuItem.Name = "OpenLauncherToolStripMenuItem"
-        Me.OpenLauncherToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
+        Me.OpenLauncherToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.OpenLauncherToolStripMenuItem.Text = "Open Launcher"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(152, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(177, 6)
         '
         'SoftwareToolStripMenuItem
         '
         Me.SoftwareToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TheCrafters001ToolStripMenuItem, Me.VLCToolStripMenuItem, Me.VisualStudioToolStripMenuItem, Me.VSDCVideoEditorToolStripMenuItem, Me.TextHashToolStripMenuItem})
         Me.SoftwareToolStripMenuItem.Name = "SoftwareToolStripMenuItem"
-        Me.SoftwareToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
+        Me.SoftwareToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.SoftwareToolStripMenuItem.Text = "Software"
         '
         'TheCrafters001ToolStripMenuItem
         '
-        Me.TheCrafters001ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EasyButlerToolStripMenuItem, Me.WebBrowserToolStripMenuItem})
+        Me.TheCrafters001ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EasyButlerToolStripMenuItem, Me.WebBrowserToolStripMenuItem, Me.FlashPlayer2ToolStripMenuItem})
         Me.TheCrafters001ToolStripMenuItem.Name = "TheCrafters001ToolStripMenuItem"
-        Me.TheCrafters001ToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
+        Me.TheCrafters001ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.TheCrafters001ToolStripMenuItem.Text = "TheCrafters001"
         '
         'EasyButlerToolStripMenuItem
         '
         Me.EasyButlerToolStripMenuItem.Name = "EasyButlerToolStripMenuItem"
-        Me.EasyButlerToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
+        Me.EasyButlerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.EasyButlerToolStripMenuItem.Text = "Easy Butler"
         '
         'WebBrowserToolStripMenuItem
         '
         Me.WebBrowserToolStripMenuItem.Name = "WebBrowserToolStripMenuItem"
-        Me.WebBrowserToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
+        Me.WebBrowserToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.WebBrowserToolStripMenuItem.Text = "Web Browser"
         '
         'VLCToolStripMenuItem
         '
         Me.VLCToolStripMenuItem.Name = "VLCToolStripMenuItem"
-        Me.VLCToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
+        Me.VLCToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.VLCToolStripMenuItem.Text = "VLC"
         '
         'VisualStudioToolStripMenuItem
         '
         Me.VisualStudioToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.VisualStudio2019ToolStripMenuItem, Me.VisualStudioCodeToolStripMenuItem})
         Me.VisualStudioToolStripMenuItem.Name = "VisualStudioToolStripMenuItem"
-        Me.VisualStudioToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
+        Me.VisualStudioToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.VisualStudioToolStripMenuItem.Text = "Visual Studio"
         '
         'VisualStudio2019ToolStripMenuItem
         '
         Me.VisualStudio2019ToolStripMenuItem.Name = "VisualStudio2019ToolStripMenuItem"
-        Me.VisualStudio2019ToolStripMenuItem.Size = New System.Drawing.Size(173, 22)
+        Me.VisualStudio2019ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.VisualStudio2019ToolStripMenuItem.Text = "Visual Studio 2019"
         '
         'VisualStudioCodeToolStripMenuItem
         '
         Me.VisualStudioCodeToolStripMenuItem.Name = "VisualStudioCodeToolStripMenuItem"
-        Me.VisualStudioCodeToolStripMenuItem.Size = New System.Drawing.Size(173, 22)
+        Me.VisualStudioCodeToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.VisualStudioCodeToolStripMenuItem.Text = "Visual Studio Code"
         '
         'VSDCVideoEditorToolStripMenuItem
         '
         Me.VSDCVideoEditorToolStripMenuItem.Name = "VSDCVideoEditorToolStripMenuItem"
-        Me.VSDCVideoEditorToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
+        Me.VSDCVideoEditorToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.VSDCVideoEditorToolStripMenuItem.Text = "VSDC Video Editor"
         '
         'TextHashToolStripMenuItem
         '
         Me.TextHashToolStripMenuItem.Name = "TextHashToolStripMenuItem"
-        Me.TextHashToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
+        Me.TextHashToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.TextHashToolStripMenuItem.Text = "TextHash"
         '
         'GamesToolStripMenuItem
         '
         Me.GamesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SuperTextAdventureToolStripMenuItem, Me.SteamToolStripMenuItem})
         Me.GamesToolStripMenuItem.Name = "GamesToolStripMenuItem"
-        Me.GamesToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
+        Me.GamesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.GamesToolStripMenuItem.Text = "Games"
         '
         'SuperTextAdventureToolStripMenuItem
@@ -167,13 +168,19 @@ Partial Class Icon_SystemMenu
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(152, 6)
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(177, 6)
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ExitToolStripMenuItem.Text = "Exit"
+        '
+        'FlashPlayer2ToolStripMenuItem
+        '
+        Me.FlashPlayer2ToolStripMenuItem.Name = "FlashPlayer2ToolStripMenuItem"
+        Me.FlashPlayer2ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.FlashPlayer2ToolStripMenuItem.Text = "Flash Player 2"
         '
         'Icon_SystemMenu
         '
@@ -215,4 +222,5 @@ Partial Class Icon_SystemMenu
     Friend WithEvents TextHashToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SuperTextAdventureToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SteamToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents FlashPlayer2ToolStripMenuItem As ToolStripMenuItem
 End Class

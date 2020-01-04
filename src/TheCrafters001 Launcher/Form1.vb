@@ -13,16 +13,12 @@ Public Class Form1
         Games.Show()
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Misc.Show()
-    End Sub
+    'Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    '    Misc.Show()
+    'End Sub
 
-    Private Sub Button4_Click(sender As Object, e As EventArgs) 
-
-    End Sub
-
-    Private Sub Button5_Click_1(sender As Object, e As EventArgs) Handles Button5.Click
-        TC001.Show()
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Settings.Show()
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
@@ -34,5 +30,7 @@ Public Class Form1
         ' NotifyIcon
         Icon_SystemMenu.Show()
 
+        ' Change {0} to the version number
+        Me.Text = String.Format("TheCrafters001 Launcher! V {0}", My.Application.Info.Version.ToString)
     End Sub
 End Class

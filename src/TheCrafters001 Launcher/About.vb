@@ -9,7 +9,7 @@ Public Class About
         Me.Close()
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub Button2_Click(sender As Object, e As EventArgs) 
         AutoUpdater.ShowSkipButton = False
         AutoUpdater.ShowRemindLaterButton = True
         AutoUpdater.ReportErrors = True
@@ -21,7 +21,7 @@ Public Class About
         AutoUpdater.Start("http://api.thecrafters001.ga/updates/Launcher.xml")
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs) 
         Process.Start("https://docs.google.com/forms/d/e/1FAIpQLSddcxPtWk4EOm2mZnoC0PcoPytBb2DoD66TDTrT1pHPaTDu7A/viewform?usp=sf_link")
     End Sub
 End Class

@@ -1,3 +1,7 @@
+
+THIS IS AN ARCHIVE BRANCH. EVERYTHING HERE WAS PLACED HERE SO YOU CAN MAKE YOUR OWN!
+
+
 # TheCrafters001 Launcher
 A launcher for free games and software!
 
